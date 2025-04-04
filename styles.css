@@ -1,0 +1,67 @@
+/* styles.css - Light & Colorful Travel Theme */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('images/travel-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.featured {
+    text-align: center;
+    padding: 20px;
+}
+
+.story-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.story-card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcc00;
+    margin-top: 20px;
+}
