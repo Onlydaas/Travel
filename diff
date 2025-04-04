@@ -1,0 +1,45 @@
+index.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Travel Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="support.html">Support Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Explore the World Through My Eyes</h2>
+        <p>Join me on my journey across the globe.</p>
+    </section>
+    
+    <section class="featured">
+        <h2>Featured Stories</h2>
+        <div class="story-card">
+            <img src="images/trip1.jpg" alt="Trip 1">
+            <h3><a href="story1.html">Hiking in the Swiss Alps (2023)</a></h3>
+        </div>
+        <div class="story-card">
+            <img src="images/trip2.jpg" alt="Trip 2">
+            <h3><a href="story2.html">Safari Adventure in Kenya (2022)</a></h3>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 My Travel Adventures. Follow me on <a href="#">Instagram</a> | <a href="#">YouTube</a></p>
+    </footer>
+</body>
+</html>
